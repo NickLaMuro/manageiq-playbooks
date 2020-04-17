@@ -1,0 +1,7 @@
+---
+- name: Acquire and Set an IP Address
+  hosts: all
+  tasks:
+   - name: Hello World
+     debug:
+       msg: "Hello World"
